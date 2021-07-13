@@ -1,0 +1,108 @@
+ul{
+    list-style-type: none;
+    margin: opx;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+
+ 
+}
+.header{
+    background-image: url(image/istockphoto-1257405142-170667a.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+ li {
+    display: inline-block;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    padding: 15px 16px;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    display:block ;
+}
+
+li.active a{
+    border: 3px solid green;
+}
+li a:hover{
+   border:3px solid green; 
+   background-color: tomato;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    float:left ;
+}
+body{
+    font-family: monospace;
+}
+.hero{
+    position:absolute ;
+    width: 1200px; 
+    margin-left:0px ;
+    margin-top:opx ;
+}
+h1{
+    color:black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px ;
+
+}
+.button{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.btn{
+    border: 1px solid blue ;
+    padding:10px 30px ;
+    color:black;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-decoration:uppercase ;
+}
+.btn-one{
+    background-color: orange;
+    font-family:"Roboto" ,sans-serif;
+}
+
+
+.btn-two{
+
+    font-family: "'Rototo", sans-serif;
+}
+
+
+.btn-two:hover{
+    background-color: orange
+}
+ 
+ 
+ 
+
+.box{
+    border:1px solid green;
+    margin: 5px;
+    float: left;
+    background-color: rgb(32, 207, 199);
+    
+    width: 30%
+    
+
+    }
+
+
